@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Report a Course Issue</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+  body{font-family:sans-serif;line-height:1.4;margin:0;padding:2rem 1rem;background:#fff;color:#111}
+  .main-wrapper{max-width:700px;margin:0 auto}
+  h1{margin-top:0}
+  form{margin-top:1.5rem}
+  label{display:block;margin:.75rem 0 .25rem;font-weight:600}
+  input[type="text"],input[type="url"],textarea{
+    width:100%;max-width:100%;box-sizing:border-box;
+    padding:.5rem;border:1px solid #ccc;border-radius:4px;font-size:1rem;
+  }
+  textarea{min-height:8rem;resize:vertical}
+  .readonly-field{background:#f7f7f7;color:#555}
+  button{padding:.6rem 1.25rem;font-size:1rem;border:1px solid #333;border-radius:4px;background:#eee;cursor:pointer}
+  button:hover,button:focus{background:#ddd}
+  .form-actions{margin-top:1.25rem;display:flex;gap:.75rem;flex-wrap:wrap}
+  .small{font-size:.85rem;color:#555}
+  .required::after{content:" *";color:#d00;font-weight:400}
+  .success,.error{margin-top:1rem;padding:1rem;border-radius:4px}
+  .success{background:#e6ffed;border:1px solid #2ecc71}
+  .error{background:#ffecec;border:1px solid #ff6b6b}
+
+  /* Leave form link (small) */
+  .leave-link{
+    display:inline-block;
+    margin-bottom:1rem;
+    padding:.2rem .6rem;
+    font-size:.85rem;
+    line-height:1.2;
+    border:1px solid #ccc;
+    border-radius:4px;
+    background:#fafafa;
+    text-decoration:none;
+    color:#111;
+  }
+  .leave-link:hover,
+  .leave-link:focus{
+    background:#f0f0f0;
+    text-decoration:none;
+    outline:none;
+  }
+</style>
+</head>
+<body>
+<div class="main-wrapper">
+<h1>Flag a Course Content Issue</h1>
+
+<!-- Default target if no JS / no from= -->
+<a href="../index.html" class="leave-link" id="leave-link" aria-label="Go back to where you were">← Leave form</a>
+
+<p>
+I’m maintaining this course calendar as a personal project. If you spot an incorrect
+title, points value, prerequisite, description, or anything else, please let me know
+and I’ll fix it as soon as I can. Thanks for helping keep this accurate!
+</p>
+
+<p class="small">If you prefer email, you can reach me at <em>you@example.com</em> (copy/paste the course code).</p>
+
+<form id="issue-form" action="https://formspree.io/f/xgvzeglb" method="POST">
+  <label for="issue-email">Your email (optional)</label>
+  <input type="text" name="_replyto" id="issue-email" placeholder="you@domain.com">
+
+  <label for="course-code" class="required">Course code</label>
+  <input type="text" name="course" id="course-code" required class="readonly-field" readonly>
+
+  <label for="page-url">Page URL (auto-filled)</label>
+  <input type="url" name="page_url" id="page-url" class="readonly-field" readonly>
+
+  <label for="issue-details" class="required">What’s wrong?</label>
+  <textarea name="message" id="issue-details" required
+    placeholder="Describe the problem. If you know the correct wording, include it."></textarea>
+
+  <input type="hidden" name="_subject" id="fs-subject" value="Course issue report">
+  <input type="hidden" name="_next" value="issue_thanks.html">
+  
+  <div class="form-actions">
+    <button type="submit">Send Report</button>
+  </div>
+</form>
+
+<p class="small">
+Data you submit is emailed to me via Formspree. I don’t share it; I use it only to fix course data.
+</p>
+</div>
+
+<script>
+(function(){
+  const params       = new URLSearchParams(window.location.search);
+  const courseParam  = params.get("course") || "";
+  const fromParam    = params.get("from")   || "";
+  const leaveLink    = document.getElementById("leave-link");
+  const courseField  = document.getElementById("course-code");
+  const pageField    = document.getElementById("page-url");
+  const subjectField = document.getElementById("fs-subject");
+
+  // normalize from= to a path relative to site root: subjects/<file>[#anchor]
+  let path = "";
+  if (fromParam){
+    try { path = decodeURIComponent(fromParam).trim(); }
+    catch(e){ path = fromParam.trim(); }
+  }
+  if (path){
+    // strip any leading ../subjects/ or /subjects/
+    path = path.replace(/^(\.\.\/)?subjects\//i,"");
+    // if the caller didn't include .html, append; (optional) comment out if not wanted
+    if (!/\.html/i.test(path)) path += ".html";
+    // add prefix
+    path = "subjects/" + path;
+    leaveLink.href = path;
+    // put full absolute URL in the Page URL field
+    pageField.value = new URL(path, window.location.href).href;
+  } else {
+    pageField.value = window.location.origin;
+  }
+
+  if (courseParam){
+    courseField.value = courseParam;
+    subjectField.value = `Course issue: ${courseParam}`;
+  } else {
+    courseField.readOnly = false;
+    courseField.classList.remove("readonly-field");
+  }
+})();
+</script>
+</body>
+</html>

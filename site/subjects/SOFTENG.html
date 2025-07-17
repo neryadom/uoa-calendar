@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'/>
+<title>SOFTENG (Software Engineering) Courses</title>
+<style>
+/* minimal starter styles */
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin: 0;
+  padding: 2rem 1rem;
+  background: #fff; /* changed */
+  color: #111;
+}
+.main-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.course {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+.course h3 {
+  margin: 0 0 .25rem 0;
+  font-size: 1.1rem;
+}
+.meta {
+  margin: .25rem 0;
+  font-size: .9rem;
+  color: #555;
+}
+.meta strong {
+  color: #000;
+}
+.stage-header {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 2px solid #000;
+}
+
+/* ---- issue icon layout ---- */
+.course-head {
+  display: flex;              /* lay out title + icon */
+  align-items: baseline;      /* align text baselines */
+  gap: .25rem;                /* small gap before icon */
+  flex-wrap: wrap;            /* allow wrapping on narrow screens */
+}
+.course-head-text {
+  flex: 1 1 auto;             /* take remaining space */
+  min-width: 0;               /* allow shrink */
+}
+.ri-flag {
+  margin-left: auto;          /* push icon to far right */
+  font-size: .95em;
+  line-height: 1;
+  text-decoration: none;      /* remove underline */
+  opacity: .6;
+  cursor: pointer;
+  transition: opacity .15s, transform .15s;
+  white-space: nowrap;        /* keep icon on one line */
+}
+.ri-flag:hover,
+.ri-flag:focus {
+  opacity: 1;
+  transform: scale(1.1);
+  text-decoration: none;
+  outline: none;
+}
+</style>
+</head>
+<body>
+<div class='main-wrapper'>
+<h1>SOFTENG (Software Engineering)</h1>
+<p><a href='../index.html'>&larr; Back to all subjects</a></p>
+<h2 class='stage-header'>Stage I</h2>
+<article class='course' id='SOFTENG-206'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 206 - Software Engineering Design 1 (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+206&from=SOFTENG.html%23SOFTENG-206' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Project work. Skills and tools in systematic development of software, including testing, version control, build systems, working with others. Professional issues introduced in ENGGEN 204 (ethics, communication, and teamwork) are reinforced and developed while simulating a client-facing software development process.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#SOFTENG-251">SOFTENG 251</a> or 281</p>
+</article>
+<article class='course' id='SOFTENG-211'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 211 - Software Engineering Theory (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+211&from=SOFTENG.html%23SOFTENG-211' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Sets. Formal languages, operations on languages. Deterministic and nondeterministic automata, designing automata, determinisation. Regular expressions. Logic. Induction. Recursion. Program correctness. Computability. Counting. Elements of graph algorithms.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/ENGGEN.html#ENGGEN-131">ENGGEN 131</a> or <a href="../subjects/COMPSCI.html#COMPSCI-101">COMPSCI 101</a></p>
+</article>
+<article class='course' id='SOFTENG-250'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 250 - Introduction to Data Structures and Algorithms (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+250&from=SOFTENG.html%23SOFTENG-250' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Introduction to the analytical and empirical behaviour of basic algorithms and data structures.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/ENGGEN.html#ENGGEN-131">ENGGEN 131</a> or <a href="../subjects/COMPSCI.html#COMPSCI-101">COMPSCI 101</a></p>
+<p class='meta'><strong>Corequisite:</strong> <a href="../subjects/ENGSCI.html#ENGSCI-211">ENGSCI 211</a></p>
+</article>
+<article class='course' id='SOFTENG-251'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 251 - Object Oriented Software Construction (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+251&from=SOFTENG.html%23SOFTENG-251' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An introduction to Object Oriented software development. Programming with classes; objects and polymorphism. Evolutionary and test-driven development. Analysis and design. Modelling with UML. Design patterns. Design for reuse, for testing, and for ease of change.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/ENGGEN.html#ENGGEN-131">ENGGEN 131</a> or <a href="../subjects/COMPSCI.html#COMPSCI-101">COMPSCI 101</a></p>
+</article>
+<article class='course' id='SOFTENG-254'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 254 - Quality Assurance (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+254&from=SOFTENG.html%23SOFTENG-254' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Software verification and validation. Static and dynamic QA activities as part of the software lifecycle. Unit, integration, system, and usability testing. Use of visual notations, automation, and tools to support development activities. Metrics to quantify strength of testing and complexity of programs.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#SOFTENG-250">SOFTENG 250</a>, 251</p>
+</article>
+<article class='course' id='SOFTENG-281'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 281 - Object-Oriented Programming (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+281&from=SOFTENG.html%23SOFTENG-281' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Computer programming using objects as the mechanism for modularity, abstraction, and code reuse. Review of control structures for conditionals and iteration. Instance variables, methods, and encapsulation. Interfaces, inheritance, polymorphism, and abstract classes. Exception handling. Introduction to basic data structures and basic algorithms including sorting and searching.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/COMPSCI.html#COMPSCI-101">COMPSCI 101</a> or <a href="../subjects/ENGGEN.html#ENGGEN-131">ENGGEN 131</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/COMPSCI.html#COMPSCI-230">COMPSCI 230</a>, <a href="../subjects/COMPSYS.html#COMPSYS-202">COMPSYS 202</a>, <a href="../subjects/MECHENG.html#MECHENG-270">MECHENG 270</a>, <a href="#SOFTENG-251">SOFTENG 251</a></p>
+</article>
+<article class='course' id='SOFTENG-282'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 282 - Software Engineering Theory (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+282&from=SOFTENG.html%23SOFTENG-282' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Theoretical foundations of software engineering, including sets, formal languages, operations on languages, deterministic and nondeterministic automata, designing automata, determinisation, regular expressions, logic, induction, recursion, program correctness, computability, counting, elements of graph algorithms.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/COMPSCI.html#COMPSCI-101">COMPSCI 101</a> or <a href="../subjects/ENGGEN.html#ENGGEN-131">ENGGEN 131</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/COMPSCI.html#COMPSCI-225">COMPSCI 225</a>, <a href="#SOFTENG-211">SOFTENG 211</a></p>
+</article>
+<article class='course' id='SOFTENG-283'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 283 - Software Quality Assurance (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+283&from=SOFTENG.html%23SOFTENG-283' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Software verification and validation. Static and dynamic quality assurance activities as part of the software lifecycle. Unit, integration, system, and usability testing. Metrics to quantify strength of testing and complexity of programs. Techniques for engineering of software systems including requirements, specification, validation, verification. Modelling paradigms including information, behaviour, domain, function and constraint models. Specification languages.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/COMPSYS.html#COMPSYS-202">COMPSYS 202</a> or <a href="#SOFTENG-251">SOFTENG 251</a> or 281</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#SOFTENG-254">SOFTENG 254</a> and Design 942</p>
+</article>
+<article class='course' id='SOFTENG-284'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 284 - Data Structures and Algorithms (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+284&from=SOFTENG.html%23SOFTENG-284' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Data structures including linked-lists, stacks, queues, trees, hash tables; graph representations and algorithms, including minimum spanning trees, traversals, shortest paths; introduction to algorithmic design strategies; correctness and performance analysis.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/COMPSYS.html#COMPSYS-202">COMPSYS 202</a> or <a href="#SOFTENG-251">SOFTENG 251</a> or 281</p>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/COMPSCI.html#COMPSCI-220">COMPSCI 220</a>, 717, <a href="#SOFTENG-250">SOFTENG 250</a></p>
+</article>
+<article class='course' id='SOFTENG-299'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 299 - Workshop Practice (0 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+299&from=SOFTENG.html%23SOFTENG-299' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/ENGGEN.html#ENGGEN-299">ENGGEN 299</a></p>
+</article>
+<h2 class='stage-header'>Stage III</h2>
+<article class='course' id='SOFTENG-306'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 306 - Software Engineering Design 2 (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+306&from=SOFTENG.html%23SOFTENG-306' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Working in project teams to develop software to meet changing requirements for a large application. Project planning. Requirements gathering. Estimating, costing and tracking. Acceptance and unit testing. Evolutionary design and development. Collaborative development tools. Professional issues introduced in ENGGEN 204 and 303 (communication, leadership, teamwork, safety in design) are reinforced and developed.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#SOFTENG-206">SOFTENG 206</a>, and <a href="#SOFTENG-254">SOFTENG 254</a> or 283</p>
+</article>
+<article class='course' id='SOFTENG-310'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 310 - Software Evolution and Maintenance (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+310&from=SOFTENG.html%23SOFTENG-310' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Design and maintenance of multi-version software, debugging techniques, design and documentation for software re-use, programme migration and transformation, refactoring, tools for software evolution and maintenance.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#SOFTENG-254">SOFTENG 254</a> or 283</p>
+</article>
+<article class='course' id='SOFTENG-325'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 325 - Software Architecture (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+325&from=SOFTENG.html%23SOFTENG-325' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Taxonomy of software architecture patterns, including client/server and multi-tier. Understanding quality attributes. Methodologies for design of software architectures. Technologies for architecture level development, including middleware.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/COMPSYS.html#COMPSYS-302">COMPSYS 302</a> or <a href="#SOFTENG-254">SOFTENG 254</a> or 283</p>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/COMPSCI.html#COMPSCI-331">COMPSCI 331</a></p>
+</article>
+<article class='course' id='SOFTENG-350'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 350 - Human Computer Interaction (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+350&from=SOFTENG.html%23SOFTENG-350' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Human behaviour and humans’ expectations of computers. Computer interfaces and the interaction between humans and computers. The significance of the user interface, interface design and user centred design process in software development. Interface usability evaluation methodologies and practice. Includes an evaluation project, group design project, and implementation using current techniques and tools.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#SOFTENG-206">SOFTENG 206</a> or 283</p>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/COMPSCI.html#COMPSCI-345">COMPSCI 345</a>, 370</p>
+</article>
+<article class='course' id='SOFTENG-351'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 351 - Fundamentals of Database Systems (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+351&from=SOFTENG.html%23SOFTENG-351' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Relational model, Relational algebra, Relational calculus, SQL, SQL and programming languages, Entity- Relationship model, Normalisation, Query processing, Query optimisation, Distributed databases, Transaction management, Concurrency control, Database recovery.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#SOFTENG-251">SOFTENG 251</a> or 281</p>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/COMPSCI.html#COMPSCI-351">COMPSCI 351</a></p>
+</article>
+<article class='course' id='SOFTENG-364'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 364 - Networks and Security (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+364&from=SOFTENG.html%23SOFTENG-364' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Physical networks, TCP/IP protocols, switching methods, network layering and components, network services. Information security, computer and network security threats, defence mechanisms and encryption.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/COMPSYS.html#COMPSYS-201">COMPSYS 201</a>, and <a href="#SOFTENG-251">SOFTENG 251</a> or 281</p>
+</article>
+<article class='course' id='SOFTENG-370'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 370 - Operating Systems (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+370&from=SOFTENG.html%23SOFTENG-370' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>History of operating systems. Multi-user systems. Scheduling. Concurrent processes, threads and synchronisation. Memory allocation and virtual memory. Managing files, disks and other peripherals. Security, protection and archiving. Engineering distributed systems; location, migration and replication transparency. Real-time programming and embedded systems.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/COMPSYS.html#COMPSYS-201">COMPSYS 201</a>, and <a href="#SOFTENG-251">SOFTENG 251</a> or 281</p>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/COMPSCI.html#COMPSCI-340">COMPSCI 340</a></p>
+</article>
+<h2 class='stage-header'>Postgraduate 700 Level Courses</h2>
+<article class='course' id='SOFTENG-700A'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 700A -  (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+700A&from=SOFTENG.html%23SOFTENG-700A' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='SOFTENG-700B'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 700B - Research Project - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+700B&from=SOFTENG.html%23SOFTENG-700B' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Students are required to submit a report on project work carried out on a Software Engineering topic assigned by the Head of Department.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#SOFTENG-306">SOFTENG 306</a></p>
+<p class='meta'><em>A and B</em></p>
+</article>
+<article class='course' id='SOFTENG-701'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 701 - Advanced Software Engineering Development Methods (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+701&from=SOFTENG.html%23SOFTENG-701' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>- Level 9 Advanced studies in methods and techniques for developing complex software systems including topics in software engineering environments, advanced software design, tool construction and software architectures. The core taught skills are extended by individual projects in which independent research is undertaken to address challenging software system problems.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/COMPSYS.html#COMPSYS-302">COMPSYS 302</a> or <a href="#SOFTENG-306">SOFTENG 306</a></p>
+</article>
+<article class='course' id='SOFTENG-710'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 710 - Studies in Software Engineering 1 (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+710&from=SOFTENG.html%23SOFTENG-710' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Advanced courses on topics to be determined each year by the Head of Department.</p>
+<p class='meta'><strong>Prerequisite:</strong> Departmental approval</p>
+</article>
+<article class='course' id='SOFTENG-711'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 711 - Studies in Software Engineering 2 (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+711&from=SOFTENG.html%23SOFTENG-711' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Advanced courses on topics to be determined each year by the Head of Department.</p>
+<p class='meta'><strong>Prerequisite:</strong> Departmental approval</p>
+</article>
+<article class='course' id='SOFTENG-715'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 715 - Special Topic (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+715&from=SOFTENG.html%23SOFTENG-715' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='SOFTENG-751'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 751 - High Performance Computing - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+751&from=SOFTENG.html%23SOFTENG-751' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Advanced parallel and high performance computing concepts and techniques such as parallel system architecture; parallelisation concepts, algorithms and methodology; parallel programming paradigms and technologies. Core concepts and skills are deepened by a hands-on research project in which a challenging parallel computing problem is analysed and solved.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/COMPSYS.html#COMPSYS-302">COMPSYS 302</a> or <a href="#SOFTENG-306">SOFTENG 306</a> and Design 943</p>
+</article>
+<article class='course' id='SOFTENG-752'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 752 - Formal Specification and Design - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+752&from=SOFTENG.html%23SOFTENG-752' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Formal specification, design, and (automatic) analysis of software systems. Quality assurance through precise description and rigorous verification on the design. Introduction to the Z, OCL and CSP notations. Comparison of approaches, with emphasis on their practical application. Includes a substantial individual research project.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/COMPSYS.html#COMPSYS-302">COMPSYS 302</a> or <a href="#SOFTENG-306">SOFTENG 306</a></p>
+</article>
+<article class='course' id='SOFTENG-753'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 753 - Machine Learning Techniques and Applications (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+753&from=SOFTENG.html%23SOFTENG-753' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Examines classic and state of the art algorithms in the field of machine learning. Topics may include: Bayesian classification, regression and state estimation; clustering and mixture models; kernel-based methods; sequential models; graphical models; neural networks and deep architectures.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/COMPSYS.html#COMPSYS-302">COMPSYS 302</a> or 306 or <a href="#SOFTENG-306">SOFTENG 306</a></p>
+</article>
+<article class='course' id='SOFTENG-754'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 754 - Advanced Software Requirements Engineering - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+754&from=SOFTENG.html%23SOFTENG-754' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Advanced software engineering concepts focusing on techniques for requirements analysis and requirements engineering (RE) of software systems. Topics will include: requirements elicitation, analysis, specification, validation, verification, user experience design, test- driven development and continuous integration. Includes a substantial individual research project.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/COMPSYS.html#COMPSYS-302">COMPSYS 302</a> or <a href="#SOFTENG-306">SOFTENG 306</a></p>
+</article>
+<article class='course' id='SOFTENG-755'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 755 - Special Topic (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+755&from=SOFTENG.html%23SOFTENG-755' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='SOFTENG-761'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 761 - Advanced Agile and Lean Software Development - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+761&from=SOFTENG.html%23SOFTENG-761' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Advanced software engineering concepts focussing on Agile and Lean software development; including hands- on iterative and incremental software development, self-organising teamwork, project management, and an individual research component to explore challenging issues in this discipline.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/COMPSYS.html#COMPSYS-302">COMPSYS 302</a> or <a href="#SOFTENG-306">SOFTENG 306</a></p>
+</article>
+<article class='course' id='SOFTENG-762'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 762 - Robotics Process Automation (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+762&from=SOFTENG.html%23SOFTENG-762' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Covers the fundamentals of Robotic Process Automation (RPA) systems. Students explore what RPA is and where it is useful, how RPA fits into current information technology setups, extracting and manipulating data from both external and internal sources, generating reports and statistics, and orchestrating multi-robot installations.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/COMPSYS.html#COMPSYS-302">COMPSYS 302</a> or <a href="#SOFTENG-306">SOFTENG 306</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/INFOSYS.html#INFOSYS-300">INFOSYS 300</a></p>
+</article>
+<article class='course' id='SOFTENG-770'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 770 - Capstone Project (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+770&from=SOFTENG.html%23SOFTENG-770' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Final year team exercise with students in multi-disciplinary roles, with focus on software engineering, integrating technical learning into realistic design outcomes. Comprehensive investigation of an open ended, complex, real or synthetic computer, electrical and software engineering problem with simulated professional design office constraints. Includes technical, economic and environmental impact components to complete a scheme assessment report.</p>
+<p class='meta'><strong>Prerequisite:</strong> 75 points from Part III courses listed in the BE(Hons) Schedule for the Software Engineering specialisation</p>
+</article>
+<article class='course' id='SOFTENG-787'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 787 - Project X - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+787&from=SOFTENG.html%23SOFTENG-787' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Students are required to submit a report on a topic assigned by the Head of Department.</p>
+<p class='meta'><strong>Prerequisite:</strong> Departmental approval</p>
+</article>
+<article class='course' id='SOFTENG-788'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 788 -  (30 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+788&from=SOFTENG.html%23SOFTENG-788' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='SOFTENG-788A'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 788A -  (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+788A&from=SOFTENG.html%23SOFTENG-788A' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='SOFTENG-788B'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 788B - Research Project - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+788B&from=SOFTENG.html%23SOFTENG-788B' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Students are required to submit a report on a topic assigned by the appropriate Head of Department.</p>
+<p class='meta'><strong>Prerequisite:</strong> Departmental approval</p>
+<p class='meta'><em>and B, or <a href="#SOFTENG-788">SOFTENG 788</a></em></p>
+</article>
+<article class='course' id='SOFTENG-789'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 789 - Project Z - Level 9 (30 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+789&from=SOFTENG.html%23SOFTENG-789' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Students are required to submit a report on a topic assigned by the Head of Department.</p>
+<p class='meta'><strong>Prerequisite:</strong> Departmental approval</p>
+</article>
+<article class='course' id='SOFTENG-795'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 795 -  (45 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+795&from=SOFTENG.html%23SOFTENG-795' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='SOFTENG-795A'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 795A -  (15 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+795A&from=SOFTENG.html%23SOFTENG-795A' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='SOFTENG-795B'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 795B - Research Project (Software Engineering) - Level 9 (30 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+795B&from=SOFTENG.html%23SOFTENG-795B' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Students are required to submit a report on a topic relevant to the specialisation, as assigned by the appropriate Head of Department.</p>
+<p class='meta'><strong>Prerequisite:</strong> Departmental approval</p>
+<p class='meta'><em>and B, or <a href="#SOFTENG-795">SOFTENG 795</a></em></p>
+</article>
+<article class='course' id='SOFTENG-796A'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 796A -  (60 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+796A&from=SOFTENG.html%23SOFTENG-796A' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='SOFTENG-796B'>
+<h3 class='course-head'><span class='course-head-text'>SOFTENG 796B - ME Thesis (Software Engineering) - Level 9 (60 pts)</span><a class='ri-flag' href='../issues.html?course=SOFTENG+796B&from=SOFTENG.html%23SOFTENG-796B' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Students are required to submit a thesis on a topic assigned by the Head of Department.</p>
+<p class='meta'><strong>Prerequisite:</strong> Departmental approval</p>
+<p class='meta'><em>A and B Structural Engineering</em></p>
+</article>
+</div></body></html>

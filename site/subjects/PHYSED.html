@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'/>
+<title>PHYSED (Physical Education) Courses</title>
+<style>
+/* minimal starter styles */
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin: 0;
+  padding: 2rem 1rem;
+  background: #fff; /* changed */
+  color: #111;
+}
+.main-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.course {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+.course h3 {
+  margin: 0 0 .25rem 0;
+  font-size: 1.1rem;
+}
+.meta {
+  margin: .25rem 0;
+  font-size: .9rem;
+  color: #555;
+}
+.meta strong {
+  color: #000;
+}
+.stage-header {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 2px solid #000;
+}
+
+/* ---- issue icon layout ---- */
+.course-head {
+  display: flex;              /* lay out title + icon */
+  align-items: baseline;      /* align text baselines */
+  gap: .25rem;                /* small gap before icon */
+  flex-wrap: wrap;            /* allow wrapping on narrow screens */
+}
+.course-head-text {
+  flex: 1 1 auto;             /* take remaining space */
+  min-width: 0;               /* allow shrink */
+}
+.ri-flag {
+  margin-left: auto;          /* push icon to far right */
+  font-size: .95em;
+  line-height: 1;
+  text-decoration: none;      /* remove underline */
+  opacity: .6;
+  cursor: pointer;
+  transition: opacity .15s, transform .15s;
+  white-space: nowrap;        /* keep icon on one line */
+}
+.ri-flag:hover,
+.ri-flag:focus {
+  opacity: 1;
+  transform: scale(1.1);
+  text-decoration: none;
+  outline: none;
+}
+</style>
+</head>
+<body>
+<div class='main-wrapper'>
+<h1>PHYSED (Physical Education)</h1>
+<p><a href='../index.html'>&larr; Back to all subjects</a></p>
+<h2 class='stage-header'>Stage I</h2>
+<article class='course' id='PHYSED-101'>
+<h3 class='course-head'><span class='course-head-text'>PHYSED 101 - Games and Sport Education (15 pts)</span><a class='ri-flag' href='../issues.html?course=PHYSED+101&from=PHYSED.html%23PHYSED-101' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Develops knowledge and appreciation of various game forms. Analyses game structures and processes. Develops performance competency in games through experiential learning. Explores and analyses potentially positive and negative outcomes of participating in games and sport.</p>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/EDCURRIC.html#EDCURRIC-231">EDCURRIC 231</a>, <a href="../subjects/EDPROF.html#EDPROF-344">EDPROF 344</a></p>
+</article>
+<article class='course' id='PHYSED-102'>
+<h3 class='course-head'><span class='course-head-text'>PHYSED 102 - Alternative Sport and Play (15 pts)</span><a class='ri-flag' href='../issues.html?course=PHYSED+102&from=PHYSED.html%23PHYSED-102' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Develops understanding of alternative sport and games young people play in Aotearoa New Zealand and internationally. Explores a range of non-traditional and non-competitive physical activities. Reflects on the socio- cultural dimensions of these types of physical activities, including an examination of how alternative sport enables young people to learn, play, communicate, create, express themselves, and belong.</p>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/EDCURRIC.html#EDCURRIC-232">EDCURRIC 232</a></p>
+</article>
+<article class='course' id='PHYSED-104'>
+<h3 class='course-head'><span class='course-head-text'>PHYSED 104 - Aquatics and Water Safety (15 pts)</span><a class='ri-flag' href='../issues.html?course=PHYSED+104&from=PHYSED.html%23PHYSED-104' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Studies aquatic activity with an emphasis on the practical competencies that underpin safe and engaging recreation in Aotearoa New Zealand. Includes drowning prevention promotion and water safety education with particular reference to high-risk activities and at-risk groups, including children and youth. Demonstrate responsibility in aquatic environments including developing a range of aquatic skills, identifying hazards, and care for aquatic environments.</p>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/EDCURRIC.html#EDCURRIC-130">EDCURRIC 130</a>, 232 Politics and International Relations</p>
+</article>
+</div></body></html>

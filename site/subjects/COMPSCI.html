@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'/>
+<title>COMPSCI (Computer Science) Courses</title>
+<style>
+/* minimal starter styles */
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin: 0;
+  padding: 2rem 1rem;
+  background: #fff; /* changed */
+  color: #111;
+}
+.main-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.course {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+.course h3 {
+  margin: 0 0 .25rem 0;
+  font-size: 1.1rem;
+}
+.meta {
+  margin: .25rem 0;
+  font-size: .9rem;
+  color: #555;
+}
+.meta strong {
+  color: #000;
+}
+.stage-header {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 2px solid #000;
+}
+
+/* ---- issue icon layout ---- */
+.course-head {
+  display: flex;              /* lay out title + icon */
+  align-items: baseline;      /* align text baselines */
+  gap: .25rem;                /* small gap before icon */
+  flex-wrap: wrap;            /* allow wrapping on narrow screens */
+}
+.course-head-text {
+  flex: 1 1 auto;             /* take remaining space */
+  min-width: 0;               /* allow shrink */
+}
+.ri-flag {
+  margin-left: auto;          /* push icon to far right */
+  font-size: .95em;
+  line-height: 1;
+  text-decoration: none;      /* remove underline */
+  opacity: .6;
+  cursor: pointer;
+  transition: opacity .15s, transform .15s;
+  white-space: nowrap;        /* keep icon on one line */
+}
+.ri-flag:hover,
+.ri-flag:focus {
+  opacity: 1;
+  transform: scale(1.1);
+  text-decoration: none;
+  outline: none;
+}
+</style>
+</head>
+<body>
+<div class='main-wrapper'>
+<h1>COMPSCI (Computer Science)</h1>
+<p><a href='../index.html'>&larr; Back to all subjects</a></p>
+<h2 class='stage-header'>Stage I</h2>
+<article class='course' id='COMPSCI-101'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 101 - Principles of Programming (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+101&from=COMPSCI.html%23COMPSCI-101' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>A practical introduction to computers and computer programming in a high-level language. The course is lab-based and focuses on reading and writing computer programs. The course is intended for students who may wish to advance in Computer Science or in Information Systems and Operations Management.</p>
+<p class='meta'><strong>Restriction:</strong> Cannot be taken with or after <a href="#COMPSCI-105">COMPSCI 105</a>, 107, 130, 210-220, 230-289, 313-399</p>
+</article>
+<article class='course' id='COMPSCI-110'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 110 - Introduction to Computer Systems (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+110&from=COMPSCI.html%23COMPSCI-110' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An introduction to the various layers that make up a modern computer system: encoding of data and instructions, hardware, low-level programming, operating systems, applications and communications.</p>
+<p class='meta'><strong>Restriction:</strong> Cannot be taken with or after <a href="#COMPSCI-210">COMPSCI 210</a></p>
+</article>
+<article class='course' id='COMPSCI-111'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 111 - An Introduction to Practical Computing (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+111&from=COMPSCI.html%23COMPSCI-111' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>A practical introduction to computing. Topics include: web design, an overview of computer hardware and operating systems, effective use of common applications, using the internet as a communication medium, applying programming concepts, and social implications of technology.</p>
+</article>
+<article class='course' id='COMPSCI-120'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 120 - Mathematics for Computer Science (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+120&from=COMPSCI.html%23COMPSCI-120' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Basic mathematical tools and methods needed for computer science are introduced. Elementary mathematical skills for defining, analysing and reasoning with abstract objects used in programming are developed. Topics include integers and rational numbers, strings and sets, methods of proof (including induction), algorithms and functions, and elementary introductions to graphs, trees, counting and probability.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/MATHS.html#MATHS-102">MATHS 102</a> or at least 13 credits in Mathematics at NCEA Level 3 or D in CIE A2 Mathematics or C in CIE AS Mathematics or 3 out of 7 in IB Mathematics</p>
+<p class='meta'><strong>Restriction:</strong> Cannot be taken with, or after, <a href="#COMPSCI-225">COMPSCI 225</a>, <a href="../subjects/MATHS.html#MATHS-254">MATHS 254</a></p>
+</article>
+<article class='course' id='COMPSCI-130'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 130 - Introduction to Software Fundamentals (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+130&from=COMPSCI.html%23COMPSCI-130' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Fundamental programming techniques and processes, such as conditionals, iteration, recursion, functions, testing and debugging. Efficient ways to organise and manipulate data, including sorting and searching algorithms. Writing software that uses and implements common abstract data types such as lists, stacks, queues, dictionaries and trees.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-101">COMPSCI 101</a>, or B+ or higher in <a href="../subjects/ENGGEN.html#ENGGEN-131">ENGGEN 131</a>, or Achievement Standard NCEA Level 3 Digital Technologies and Programming: 91906 Use complex programming techniques to develop a computer program, or 91637 Develop a complex computer program for a specified task</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#COMPSCI-105">COMPSCI 105</a>, 107</p>
+</article>
+<h2 class='stage-header'>Stage II</h2>
+<article class='course' id='COMPSCI-210'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 210 - Computer Organisation (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+210&from=COMPSCI.html%23COMPSCI-210' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>The low level representation of data and algorithms in the computer. An introduction to computer organisation. The instruction execution model. Assembly and disassembly of instructions. Assembly language programming. How a high-level language is implemented at the machine level. The memory subsystem. Hardware support necessary to implement a secure multi-user operating system.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-110">COMPSCI 110</a>, 130</p>
+</article>
+<article class='course' id='COMPSCI-215'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 215 - Data Communications and Security (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+215&from=COMPSCI.html%23COMPSCI-215' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An introduction to data communications: the OSI reference model, particularly how the lower layers combine to implement the application layer. An introduction to secure communication and computer systems.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-110">COMPSCI 110</a>, 130, <a href="../subjects/PHYSICS.html#PHYSICS-140">PHYSICS 140</a></p>
+</article>
+<article class='course' id='COMPSCI-220'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 220 - Algorithms and Data Structures (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+220&from=COMPSCI.html%23COMPSCI-220' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An introduction to the analysis of algorithms and data structures. Common abstract data types and their implementations. Asymptotic complexity analysis. Sorting and searching algorithms. Depth-first and breadth-first search and applications. Graph optimisation problems.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-120">COMPSCI 120</a>, 130</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#COMPSCI-717">COMPSCI 717</a>, <a href="../subjects/SOFTENG.html#SOFTENG-284">SOFTENG 284</a></p>
+</article>
+<article class='course' id='COMPSCI-225'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 225 - Discrete Structures in Mathematics and Computer (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+225&from=COMPSCI.html%23COMPSCI-225' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Science An introduction to the foundations of computer science, mathematics and logic. Topics include logic, principles of counting, mathematical induction, recursion, sets and functions, graphs, codes, and finite automata.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-120">COMPSCI 120</a> or <a href="../subjects/MATHS.html#MATHS-120">MATHS 120</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/MATHS.html#MATHS-254">MATHS 254</a>, <a href="../subjects/SOFTENG.html#SOFTENG-282">SOFTENG 282</a></p>
+</article>
+<article class='course' id='COMPSCI-230'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 230 - Object Oriented Software Development (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+230&from=COMPSCI.html%23COMPSCI-230' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>The design and implementation of object-oriented programmes. Analysis and design. Modelling with UML. Design for reuse, for testing, and for ease of change. Programming with classes, objects and polymorphism.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-130">COMPSCI 130</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/SOFTENG.html#SOFTENG-281">SOFTENG 281</a></p>
+</article>
+<article class='course' id='COMPSCI-235'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 235 - Software Development Methodologies (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+235&from=COMPSCI.html%23COMPSCI-235' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An introduction to software development, including processes, best practices, tools and quality assurance techniques such as testing.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-130">COMPSCI 130</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="#COMPSCI-280">COMPSCI 280</a></p>
+</article>
+<article class='course' id='COMPSCI-289'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 289 - Research Seminar in Computer Science (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+289&from=COMPSCI.html%23COMPSCI-289' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An introduction to research topics in computer science. Students will be expected to prepare and deliver a review of research in a topic of their choice. Research articles will be provided during the course, and will consist of key scientific publications.</p>
+<p class='meta'><strong>Prerequisite:</strong> Minimum GPA of 5.0 and <a href="#COMPSCI-110">COMPSCI 110</a>, 120, 130</p>
+</article>
+<article class='course' id='COMPSCI-290'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 290 - Special Topic (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+290&from=COMPSCI.html%23COMPSCI-290' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<h2 class='stage-header'>Stage III</h2>
+<article class='course' id='COMPSCI-313'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 313 - Computer Architecture (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+313&from=COMPSCI.html%23COMPSCI-313' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Modern processor architectures. Principles of modern processor design; pipelining; memory hierarchies; I/O and network interfacing; compiler and OS support; embedded processors; performance; multiprocessing.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-210">COMPSCI 210</a>, <a href="../subjects/PHYSICS.html#PHYSICS-140">PHYSICS 140</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/SOFTENG.html#SOFTENG-363">SOFTENG 363</a>, <a href="../subjects/COMPSYS.html#COMPSYS-304">COMPSYS 304</a></p>
+</article>
+<article class='course' id='COMPSCI-315'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 315 - Data Communications Technologies (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+315&from=COMPSCI.html%23COMPSCI-315' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>The structure of data communications and networks, including the internet, covering all levels of the communications architecture. The layered protocol model, data transmission and coding, link-level and local area network protocols, wide-area internet working, routing, transport and security protocols. Basic application protocols as the foundation for distributed computing.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-210">COMPSCI 210</a>, 215</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#COMPSCI-314">COMPSCI 314</a></p>
+</article>
+<article class='course' id='COMPSCI-316'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 316 - Cyber Security (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+316&from=COMPSCI.html%23COMPSCI-316' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Introduces various concepts related to software, system and network security. Covers a range of topics including attacks on privacy and attack surface, static and dynamic analysis of malware, hardware security (trusted computing base, secure boot, and attestation), network security and some hot topics in cryptography including elliptic curve, blockchain and bitcoin.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-210">COMPSCI 210</a>, 215 or <a href="../subjects/COMPSYS.html#COMPSYS-201">COMPSYS 201</a></p>
+</article>
+<article class='course' id='COMPSCI-320'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 320 - Applied Algorithmics (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+320&from=COMPSCI.html%23COMPSCI-320' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Fundamental design techniques used for efficient algorithmic problem-solving and software development. Methods that yield algorithms that are both provably correct and efficient. Efficiency of algorithms to provide a basis for deciding which algorithm is best for the job. Limits on the power of computers and the theory of NP-completeness. An introduction to methods whose correctness or performance is not guaranteed.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-220">COMPSCI 220</a>, and <a href="#COMPSCI-225">COMPSCI 225</a> or <a href="../subjects/MATHS.html#MATHS-254">MATHS 254</a></p>
+</article>
+<article class='course' id='COMPSCI-331'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 331 - Large-Scale Software Development (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+331&from=COMPSCI.html%23COMPSCI-331' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Students will understand how to develop large-scale software systems, and learn about the issues associated with large-scale software systems and techniques for addressing them.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-230">COMPSCI 230</a>, 235</p>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/SOFTENG.html#SOFTENG-325">SOFTENG 325</a></p>
+</article>
+<article class='course' id='COMPSCI-335'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 335 - Web Programming and Distributed Services (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+335&from=COMPSCI.html%23COMPSCI-335' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Covers web programming concepts, with applications to data integration from heterogeneous and asynchronous collections. Building web and cloud clients and services, with emphasis on high-level declarative and functional techniques. Dynamic web applications. Security and performance as overarching factors of web application development.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-230">COMPSCI 230</a> and 15 points at Stage II in Computer</p>
+</article>
+<article class='course' id='COMPSCI-340'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 340 - Operating Systems (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+340&from=COMPSCI.html%23COMPSCI-340' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Operating system principles. Multi-user systems. Virtualisation. Scheduling. Concurrent processes, threads, synchronisation and deadlock. Memory allocation and virtual memory. Managing files, disks and other peripherals. Security, protection and archiving. Distributed systems and algorithms, location, migration and replication transparency. Real-time requirements. History of operating systems.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-210">COMPSCI 210</a>, 230</p>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/SOFTENG.html#SOFTENG-370">SOFTENG 370</a></p>
+</article>
+<article class='course' id='COMPSCI-345'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 345 - Human-computer Interaction (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+345&from=COMPSCI.html%23COMPSCI-345' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Human behaviour and humans&#x27; expectations of computers. Computer interfaces and the interaction between humans and computers. The significance of the user interface, interface design and user centred design process in software development. Interface usability evaluation methodologies and practice. Includes a group development and evaluation project using current implementation techniques and tools.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-230">COMPSCI 230</a> or <a href="../subjects/SOFTENG.html#SOFTENG-206">SOFTENG 206</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/SOFTENG.html#SOFTENG-350">SOFTENG 350</a></p>
+</article>
+<article class='course' id='COMPSCI-350'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 350 - Mathematical Foundations of Computer Science (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+350&from=COMPSCI.html%23COMPSCI-350' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>The aim of this course is to present mathematical models for programming languages and computation, and derive some theorems regarding what can and cannot be computed. Abstract programming languages (finite automata, context- free grammars, Turing and register machines) are studied. Basic concepts for programming languages, limits on computational power and algorithmic complexity are presented. Church-Turing thesis and quantum computing are briefly and critically discussed.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-220">COMPSCI 220</a> or <a href="../subjects/PHIL.html#PHIL-222">PHIL 222</a>, and <a href="#COMPSCI-225">COMPSCI 225</a> or <a href="../subjects/MATHS.html#MATHS-254">MATHS 254</a></p>
+</article>
+<article class='course' id='COMPSCI-351'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 351 - Fundamentals of Database Systems (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+351&from=COMPSCI.html%23COMPSCI-351' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Database principles. Relational model, Relational Algebra, Relational Calculus, SQL, SQL and Programming Languages, Entity Relationship Model, Normalisation, Query Processing and Query Optimisation, ACID Transactions, Transaction Isolation Levels, Database Recovery, Database Security, Databases and XML.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-220">COMPSCI 220</a>, and <a href="#COMPSCI-225">COMPSCI 225</a> or <a href="../subjects/MATHS.html#MATHS-254">MATHS 254</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="#COMPSCI-751">COMPSCI 751</a>, <a href="../subjects/SOFTENG.html#SOFTENG-351">SOFTENG 351</a></p>
+</article>
+<article class='course' id='COMPSCI-361'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 361 - Machine Learning (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+361&from=COMPSCI.html%23COMPSCI-361' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Machine learning is a branch of artificial intelligence concerned with making accurate, interpretable, computationally efficient, and robust inferences from data to solve a given problem. Understand the foundations of machine learning, and introduce practical skills to solve different problems.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-220">COMPSCI 220</a>, and 15 points from <a href="../subjects/DATASCI.html#DATASCI-100">DATASCI 100</a>, <a href="../subjects/STATS.html#STATS-101">STATS 101</a>, 108, and 15 points from <a href="#COMPSCI-225">COMPSCI 225</a>, <a href="../subjects/MATHS.html#MATHS-254">MATHS 254</a>, 255</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#COMPSCI-762">COMPSCI 762</a></p>
+</article>
+<article class='course' id='COMPSCI-367'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 367 - Artificial Intelligence (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+367&from=COMPSCI.html%23COMPSCI-367' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Covers algorithms and representational schemes used in artificial intelligence. AI search techniques (e.g., heuristic search, constraint satisfaction, etc.) for solving both optimal and satisficing tasks. Tasks such as game playing (adversarial search), planning, and natural language processing. Discusses and examines the history and future of AI and the ethics surrounding the use of AI in society.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-220">COMPSCI 220</a> and <a href="#COMPSCI-225">COMPSCI 225</a> or <a href="../subjects/MATHS.html#MATHS-254">MATHS 254</a>, or <a href="../subjects/SOFTENG.html#SOFTENG-282">SOFTENG 282</a> and 284</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#COMPSCI-761">COMPSCI 761</a></p>
+</article>
+<article class='course' id='COMPSCI-369'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 369 - Computational Methods in Interdisciplinary Science (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+369&from=COMPSCI.html%23COMPSCI-369' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Many sciences use computational methods that involve the development and application of computer algorithms and software to answer scientific questions. This course looks at how to tackle these interdisciplinary problems through methods like probabilistic computer modelling, computer-based statistical inference, and computer simulations. The material is largely motivated by the life sciences but also uses examples from other sciences. It focuses on modelling and analysing real-world data with an emphasis on analysing DNA sequence data. No background in physical or life sciences is assumed.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-220">COMPSCI 220</a>, and <a href="#COMPSCI-225">COMPSCI 225</a> or <a href="../subjects/MATHS.html#MATHS-254">MATHS 254</a></p>
+</article>
+<article class='course' id='COMPSCI-373'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 373 - Computer Graphics and Image Processing (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+373&from=COMPSCI.html%23COMPSCI-373' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Basic geometric processes including transformations; viewing and projection; back projection and ray tracing. Graphics modelling concepts: primitives, surfaces, and scene graphs, lighting and shading, texture mapping, and curve and surface design. Graphics and image processing fundamentals: image definition and representation, perception and colour models, grey level and colour enhancement, neighbourhood operations and filtering. Use of the OpenGL graphics pipeline.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-210">COMPSCI 210</a>, 230, or <a href="../subjects/COMPSYS.html#COMPSYS-201">COMPSYS 201</a> and <a href="../subjects/SOFTENG.html#SOFTENG-281">SOFTENG 281</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="#COMPSCI-771">COMPSCI 771</a></p>
+</article>
+<article class='course' id='COMPSCI-380'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 380 -  (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+380&from=COMPSCI.html%23COMPSCI-380' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='COMPSCI-380A'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 380A -  (7.5 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+380A&from=COMPSCI.html%23COMPSCI-380A' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='COMPSCI-380B'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 380B - Project in Computer Science (7.5 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+380B&from=COMPSCI.html%23COMPSCI-380B' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Each student taking one of these courses will be expected to do an individual practical project under the supervision of a member of staff. Only students with excellent academic records will be allowed to take these courses, and only after a supervisor and topic have been agreed upon by the Head of Department.</p>
+<p class='meta'><strong>Prerequisite:</strong> Approval of Academic Head or nominee</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#COMPSCI-690">COMPSCI 690</a></p>
+<p class='meta'><em>and B, or <a href="#COMPSCI-380">COMPSCI 380</a></em></p>
+</article>
+<article class='course' id='COMPSCI-389'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 389 - Research Methods in Computer Science (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+389&from=COMPSCI.html%23COMPSCI-389' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An overview of research methods and techniques used across the discipline of Computer Science, including formal proof techniques and empirical methods that involve quantitative and/or qualitative data. Students will be expected to apply the research methods in a collaborative research project.</p>
+<p class='meta'><strong>Prerequisite:</strong> GPA of 5.0 or higher and <a href="#COMPSCI-289">COMPSCI 289</a> and 30 points at Stage II in Computer Science</p>
+</article>
+<article class='course' id='COMPSCI-390'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 390 - Special Topic (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+390&from=COMPSCI.html%23COMPSCI-390' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='COMPSCI-391'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 391 - Special Topic (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+391&from=COMPSCI.html%23COMPSCI-391' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='COMPSCI-392'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 392 - Special Topic (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+392&from=COMPSCI.html%23COMPSCI-392' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='COMPSCI-393'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 393 - Special Topic (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+393&from=COMPSCI.html%23COMPSCI-393' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='COMPSCI-399'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 399 - Capstone: Computer Science (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+399&from=COMPSCI.html%23COMPSCI-399' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Students work in small groups to complete a substantial problem applying the knowledge learnt from the different courses in the Computer Science major. Teams are expected to reason on a problem, devise a solution, produce an artefact and present their work. The capstone provides an opportunity for students to further develop their technical and communication skills.</p>
+<p class='meta'><strong>Prerequisite:</strong> 30 points at Stage III in Computer Science and <a href="#COMPSCI-210">COMPSCI 210</a>, 220, 230</p>
+</article>
+<h2 class='stage-header'>Diploma Courses</h2>
+<article class='course' id='COMPSCI-601'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 601 - Special Topic (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+601&from=COMPSCI.html%23COMPSCI-601' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p class='meta'><strong>Prerequisite:</strong> Approval of the Academic Head or nominee</p>
+</article>
+<article class='course' id='COMPSCI-690A'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 690A -  (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+690A&from=COMPSCI.html%23COMPSCI-690A' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='COMPSCI-690B'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 690B - Graduate Diploma Research Project (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+690B&from=COMPSCI.html%23COMPSCI-690B' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p class='meta'><strong>Restriction:</strong> <a href="#COMPSCI-380">COMPSCI 380</a></p>
+<p class='meta'><em>A and B</em></p>
+</article>
+<article class='course' id='COMPSCI-691A'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 691A -  (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+691A&from=COMPSCI.html%23COMPSCI-691A' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='COMPSCI-691B'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 691B - Postgraduate Diploma Research Project (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+691B&from=COMPSCI.html%23COMPSCI-691B' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p class='meta'><strong>Restriction:</strong> <a href="#COMPSCI-780">COMPSCI 780</a></p>
+<p class='meta'><em>A and B</em></p>
+</article>
+<h2 class='stage-header'>Postgraduate 700 Level Courses</h2>
+<article class='course' id='COMPSCI-700'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 700 - Special Topic (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+700&from=COMPSCI.html%23COMPSCI-700' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='COMPSCI-701'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 701 - Creating Maintainable Software (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+701&from=COMPSCI.html%23COMPSCI-701' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Developing maintainable software has been an ongoing challenge in the software industry. This course presents the principles and practices that have been proposed for developing maintainable software systems. It will evaluate and critique these principles and practices through examining their application in practice and through understanding the research on their effectiveness.</p>
+<p class='meta'><strong>Recommended preparation:</strong> <a href="#COMPSCI-331">COMPSCI 331</a> or 718</p>
+</article>
+<article class='course' id='COMPSCI-702'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 702 - Security for Smart-devices (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+702&from=COMPSCI.html%23COMPSCI-702' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Covers security features supported by the different platforms for smart devices. Provides an overview of the most popular OS platforms in the market and focuses on security for Android and iOS. Recommended preparation: COMPSCI 340</p>
+</article>
+<article class='course' id='COMPSCI-703'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 703 - Generalising Artificial Intelligence (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+703&from=COMPSCI.html%23COMPSCI-703' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>AI deep learning has significantly advanced image understanding, language modelling, speech recognition, game playing, and more. These developments enable near-human capabilities in text and image generation. Explores highly specialised knowledge in planning, reasoning, explanation, natural language understanding, and knowledge acquisition, and assess their contribution to highly competent, general AI systems. Includes a significant individual research project.</p>
+<p class='meta'><strong>Prerequisite:</strong> 15 points from <a href="#COMPSCI-361">COMPSCI 361</a>, 367, 761, 762, or <a href="#COMPSCI-713">COMPSCI 713</a> and 714</p>
+</article>
+<article class='course' id='COMPSCI-704'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 704 - Fundamentals in Human-Computer Interaction (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+704&from=COMPSCI.html%23COMPSCI-704' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Human behaviour and humans’ expectations of interaction. Computer interfaces and the interaction between humans and computers. The significance of the user interface, interface design and user centred design process in system development. Interface usability evaluation methodologies and practice. Includes processes of evaluation, design, and implementation using current techniques and tools.</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#COMPSCI-345">COMPSCI 345</a>, <a href="../subjects/SOFTENG.html#SOFTENG-350">SOFTENG 350</a></p>
+</article>
+<article class='course' id='COMPSCI-705'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 705 - Advanced Topics in Human Computer Interaction (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+705&from=COMPSCI.html%23COMPSCI-705' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Human aspects of computer systems, relevant to commercial solution development and computer science research. Sample topics: advanced evaluation methods; support of pen and touch-based interaction; trends with domain specific user interface design, such as interfaces for enterprise systems.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-345">COMPSCI 345</a> or 704 or <a href="../subjects/SOFTENG.html#SOFTENG-350">SOFTENG 350</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/SOFTENG.html#SOFTENG-702">SOFTENG 702</a></p>
+</article>
+<article class='course' id='COMPSCI-706'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 706 - Special Topic (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+706&from=COMPSCI.html%23COMPSCI-706' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p class='meta'><strong>Prerequisite:</strong> Approval of the Academic Head or nominee</p>
+</article>
+<article class='course' id='COMPSCI-707'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 707 - Special Topic (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+707&from=COMPSCI.html%23COMPSCI-707' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p class='meta'><strong>Prerequisite:</strong> Approval of the Academic Head or nominee</p>
+</article>
+<article class='course' id='COMPSCI-710'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 710 - Directed Study (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+710&from=COMPSCI.html%23COMPSCI-710' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p class='meta'><strong>Prerequisite:</strong> Approval of the Academic Head or nominee</p>
+</article>
+<article class='course' id='COMPSCI-711'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 711 - Parallel and Distributed Computing (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+711&from=COMPSCI.html%23COMPSCI-711' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Computer architectures and languages for exploring parallelism, conceptual models of parallelism, principles for programming in a parallel environment, different models to achieve interprocess communication, concurrency control, distributed algorithms and fault tolerance. Recommended preparation: COMPSCI 320 or 335</p>
+</article>
+<article class='course' id='COMPSCI-712'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 712 - AI Agency, Ethics and Society (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+712&from=COMPSCI.html%23COMPSCI-712' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Introduces students to a range of philosophical and normative topics relating to artificial intelligence. Examines key ideas of intelligence, privacy, consent, and discusses other ethical issues that arise in the development and use of AI. The importance of Māori rights and interests in AI and data are explored. Possible approaches to addressing these various concerns are considered.</p>
+</article>
+<article class='course' id='COMPSCI-713'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 713 - AI Fundamentals (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+713&from=COMPSCI.html%23COMPSCI-713' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Examines the core concepts and techniques in AI, including breakthroughs in symbolic AI, machine learning, and neural networks. Real-world applications are presented, with a focus on AI research in Aotearoa/NZ and ethical considerations. The course is designed to be accessible to students with limited programming experience.</p>
+</article>
+<article class='course' id='COMPSCI-714'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 714 - AI Architecture and Design (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+714&from=COMPSCI.html%23COMPSCI-714' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Equips students with the ability to develop AI applications by introducing well-established AI frameworks and using web-based interactive computing platforms. Students will acquire the skills to implement simple AI techniques using these frameworks and evaluate their performance. Introduces basic practical technologies to investigate artificial intelligence techniques.</p>
+</article>
+<article class='course' id='COMPSCI-715'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 715 - Advanced Computer Graphics (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+715&from=COMPSCI.html%23COMPSCI-715' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An advanced look at current research issues in computer graphics. Typical topics include: ray-tracing acceleration methods; radiosity; subdivision surfaces; physically-based modelling; animation; image-based lighting and rendering; non-photorealistic rendering; advanced texturing.</p>
+<p class='meta'><strong>Prerequisite:</strong> Approval of the Academic Head or nominee</p>
+<p class='meta'><strong>Recommended preparation:</strong> <a href="#COMPSCI-373">COMPSCI 373</a></p>
+</article>
+<article class='course' id='COMPSCI-717'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 717 - Fundamentals of Algorithmics (30 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+717&from=COMPSCI.html%23COMPSCI-717' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Fundamental techniques are covered for the design of algorithms such as greedy algorithms, divide-and-conquer, and dynamic programming. Data structures are explored that help implement algorithms. Essential tools are taught for analysing algorithms, for example worst- and average-case analyses of space and time. Recommended preparation: COMPSCI 120, 130</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#COMPSCI-220">COMPSCI 220</a>, 320, <a href="../subjects/SOFTENG.html#SOFTENG-250">SOFTENG 250</a>, 284</p>
+</article>
+<article class='course' id='COMPSCI-718'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 718 - Programming for Industry (30 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+718&from=COMPSCI.html%23COMPSCI-718' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An examination of object-oriented programming and design. Key principles of object-oriented programming: typing, encapsulation, inheritance, polymorphism and composition. Fundamental object-oriented modelling and design techniques. Students will develop application software of reasonable complexity that draws on object- oriented language features, and contemporary APIs, frameworks and tools.</p>
+</article>
+<article class='course' id='COMPSCI-719'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 719 - Programming with Web Technologies (30 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+719&from=COMPSCI.html%23COMPSCI-719' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An examination of developing web-based applications. Client-side technologies: HTML, CSS and Javascript. Server- side technologies to support dynamic Web pages and data access. Fundamental relational database concepts and design techniques. Principles of Web-application design. HCI considerations and mobile clients. Students will build a Web-based application that dynamically generates content involving relational database access.</p>
+</article>
+<article class='course' id='COMPSCI-720'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 720 - Advanced Design and Analysis of Algorithms (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+720&from=COMPSCI.html%23COMPSCI-720' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Selected advanced topics in design and analysis of algorithms, such as: combinatorial enumeration algorithms; advanced graph algorithms; analytic and probabilistic methods in the analysis of algorithms; randomised algorithms; methods for attacking NP-hard problems.</p>
+<p class='meta'><strong>Recommended preparation:</strong> <a href="#COMPSCI-320">COMPSCI 320</a></p>
+</article>
+<article class='course' id='COMPSCI-721'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 721 - Randomised Algorithms and Probabilistic Methods (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+721&from=COMPSCI.html%23COMPSCI-721' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Randomised algorithms are algorithms that “flip coins” to make decisions. In many cases, such algorithms are faster, simpler, or more elegant than the classical, deterministic ones. Covers basic principles and techniques used to design and analyse randomised algorithms, and applications of randomised methods in mathematics and computer science. Recommended preparation: STATS 125, COMPSCI 225 or MATHS 254, COMPSCI 320</p>
+</article>
+<article class='course' id='COMPSCI-725'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 725 - Usable Security and Privacy Engineering (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+725&from=COMPSCI.html%23COMPSCI-725' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>The human aspect of cyber security and privacy engineering is relevant to commercial solution development and cyber security and privacy research. Sample topics: secure systems design; usable security systems evaluation; privacy-preserving software systems; threat modelling; economics of usable security and privacy; OWASP Top 10 vulnerabilities. Recommended preparation: 30 points from COMPSCI 313, 314, 320, 335, 340, 351, 702, 734, 742</p>
+</article>
+<article class='course' id='COMPSCI-726'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 726 - Network Defence and Countermeasures (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+726&from=COMPSCI.html%23COMPSCI-726' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Focuses on the use and deployment of protective systems used in securing internal and external networks. Examines in detail the widely used protocols including SSL, IPSec, DNSSEC as well as covers infrastructure platform protocols including wireless security (IEEE 802.11). Explores current research and developments in the area of network defence and countermeasures. Recommended preparation: COMPSCI 314, 315</p>
+</article>
+<article class='course' id='COMPSCI-727'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 727 - Cryptographic Management - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+727&from=COMPSCI.html%23COMPSCI-727' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Builds on best practices, and compliance standards to establish an advanced understanding of modern cryptographic systems used in securing communications and data storage. Advanced knowledge in modern cryptography management issues such as algorithm selection, generation, distribution, and revocation of encryption keys are applied through a research-based report and a group project. Recommended preparation: COMPSCI 210 or MATHS 120</p>
+</article>
+<article class='course' id='COMPSCI-732'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 732 - Software Tools and Techniques (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+732&from=COMPSCI.html%23COMPSCI-732' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An advanced course examining research issues related to tools and techniques for software design and development. Topics include: techniques for data mapping and data integration, software architectures for developing software tools, issues in advanced database systems. Recommended preparation: COMPSCI 331 or SOFTENG 325 or COMPSCI 718 and 719</p>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/SOFTENG.html#SOFTENG-750">SOFTENG 750</a></p>
+</article>
+<article class='course' id='COMPSCI-734'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 734 - Web, Mobile and Enterprise Computing (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+734&from=COMPSCI.html%23COMPSCI-734' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Examines advanced and emerging software architectures at the confluence of XML, web services, distributed systems, and databases. Includes advanced topics in areas such as: mobile computing, remoting, web services for enterprise integration, workflow orchestrations for the enterprise, peer-to-peer computing, grid computing. Recommended preparation: COMPSCI 335 or 718</p>
+</article>
+<article class='course' id='COMPSCI-742'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 742 - Advanced Internet: Global Data Communications (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+742&from=COMPSCI.html%23COMPSCI-742' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>The course covers wide area networks, global routing, network and protocol performance, buffering and queuing, advanced network measurement, network application performance, content networks, and advanced networking concepts. Recommended preparation: COMPSCI 314 or 315</p>
+</article>
+<article class='course' id='COMPSCI-747'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 747 - Computing Education (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+747&from=COMPSCI.html%23COMPSCI-747' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An overview of topics related to the use of technology in education and how people learn computer science concepts. Topics include research methodologies used in computer science education, how novices learn to program, and how technology can engage students in active learning, facilitate collaboration and enhance traditional educational practice. Recommended preparation: 30 points at Stage III</p>
+</article>
+<article class='course' id='COMPSCI-750'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 750 - Computational Complexity (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+750&from=COMPSCI.html%23COMPSCI-750' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Definitions of computational models and complexity classes: time complexity (e.g., P and NP), space complexity (e.g., L and PSPACE), circuit and parallel complexity (NC), polynomial-time hierarchy (PH), interactive complexity (IP), probabilistic complexity (BPP), and fixed-parameter complexity. Recommended preparation: COMPSCI 320 or 350</p>
+</article>
+<article class='course' id='COMPSCI-751'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 751 - Advanced Topics in Database Systems (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+751&from=COMPSCI.html%23COMPSCI-751' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Database principles. Relational model, relational algebra, relational calculus, SQL, SQL and programming languages, entity-relationship model, normalisation, query processing and query optimisation, ACID transactions, transaction isolation levels, database recovery, database security, databases and XML. Research frontiers in database systems. Recommended preparation: COMPSCI 220, 225 or COMPSCI 718</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#COMPSCI-351">COMPSCI 351</a>, <a href="../subjects/SOFTENG.html#SOFTENG-351">SOFTENG 351</a></p>
+</article>
+<article class='course' id='COMPSCI-752'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 752 - Big Data Management (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+752&from=COMPSCI.html%23COMPSCI-752' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>The deep diversity of modern-day data from many companies requires data scientists to master many technologies that rely on new principles to represent, describe, access, and analyse data. The course will provide insight into the rich landscape of big data modelling, management, and analysis in distributed and heterogeneous environments. Recommended preparation: COMPSCI 220, 351</p>
+</article>
+<article class='course' id='COMPSCI-753'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 753 - Algorithms for Massive Data (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+753&from=COMPSCI.html%23COMPSCI-753' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Modern enterprises and applications such as electronic commerce, social networks, location services, and scientific databases are generating data on a massive scale. Analysis of such data must be carried out by scalable algorithms. This course exposes data science practitioners and researchers to various advanced algorithms for processing and mining massive data, and explores best-practices and state-of-the-art developments in big data. Recommended preparation: COMPSCI 320</p>
+</article>
+<article class='course' id='COMPSCI-760'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 760 - Advanced Topics in Machine Learning (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+760&from=COMPSCI.html%23COMPSCI-760' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An overview of the learning problem and the view of learning by search. Covers advanced techniques for learning such as: decision tree learning, rule learning, exhaustive learning, Bayesian learning, genetic algorithms, reinforcement learning, neural networks, explanation- based learning and inductive logic programming. Advanced experimental methods necessary for understanding machine learning research.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-361">COMPSCI 361</a> or 762</p>
+</article>
+<article class='course' id='COMPSCI-761'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 761 - Advanced Topics in Artificial Intelligence (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+761&from=COMPSCI.html%23COMPSCI-761' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Examines the cornerstones of AI: representation, utilisation, and acquisition of knowledge. Taking a real-world problem and representing it in a computer so that the computer can do inference. Utilising this knowledge and acquiring new knowledge is done by search which is the main technique behind planning and machine learning. Research frontiers in artificial intelligence.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-220">COMPSCI 220</a> and 225, or <a href="#COMPSCI-220">COMPSCI 220</a> and <a href="../subjects/MATHS.html#MATHS-254">MATHS 254</a>, or <a href="#COMPSCI-713">COMPSCI 713</a> and 714, or <a href="#COMPSCI-718">COMPSCI 718</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="#COMPSCI-367">COMPSCI 367</a></p>
+</article>
+<article class='course' id='COMPSCI-762'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 762 - Foundations of Machine Learning (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+762&from=COMPSCI.html%23COMPSCI-762' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Machine learning is a branch of artificial intelligence concerned with making accurate, interpretable, computationally efficient, and robust inferences from data to solve a given problem. Students will be introduced to the foundations of machine learning and will gain practical skills to solve different problems. Students will explore research frontiers in machine learning.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-713">COMPSCI 713</a> and 714, or <a href="#COMPSCI-718">COMPSCI 718</a>, or 15 points from <a href="../subjects/DATASCI.html#DATASCI-100">DATASCI 100</a>, <a href="../subjects/STATS.html#STATS-101">STATS 101</a>, 108 and <a href="#COMPSCI-220">COMPSCI 220</a> or 717 and <a href="#COMPSCI-225">COMPSCI 225</a> or <a href="../subjects/MATHS.html#MATHS-254">MATHS 254</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="#COMPSCI-361">COMPSCI 361</a></p>
+</article>
+<article class='course' id='COMPSCI-764'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 764 - Deep Learning - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+764&from=COMPSCI.html%23COMPSCI-764' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Critically analyses the fundamentals of deep neural networks alongside current state-of-the-art advancements in this field. Students will acquire specialised knowledge in state-of-the-art deep learning architectures and gain the ability to apply deep learning in various fields, including natural language processing and computer vision. Includes a significant individual research project.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-361">COMPSCI 361</a> or 762, or <a href="#COMPSCI-713">COMPSCI 713</a> and 714</p>
+</article>
+<article class='course' id='COMPSCI-765'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 765 - Modelling Minds (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+765&from=COMPSCI.html%23COMPSCI-765' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>How can researchers of artificial intelligence effectively model subjective aspects of minds, such as emotional states, desires, perceptual experience and intrinsic goals? This course draws upon interdisciplinary methods and considers classic and emerging approaches to try to answer this question. Recommended preparation: COMPSCI 367</p>
+</article>
+<article class='course' id='COMPSCI-767'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 767 - Intelligent Software Agents (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+767&from=COMPSCI.html%23COMPSCI-767' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An introduction to the design, implementation and use of intelligent software agents (e.g., knowbots, softbots etc). Reviews standard artificial intelligence problem- solving paradigms (e.g., planning and expert systems) and knowledge representation formalisms (e.g., logic and semantic nets). Surveys agent architectures and multi- agent frameworks.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-367">COMPSCI 367</a> or 761, or <a href="#COMPSCI-713">COMPSCI 713</a> and 714</p>
+</article>
+<article class='course' id='COMPSCI-769'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 769 - Natural Language Processing - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+769&from=COMPSCI.html%23COMPSCI-769' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Examines the progress in enabling AI systems to use natural language for communication and knowledge storage. Explores knowledge formalisation, storage, multiple knowledge systems, theory formation, and the roles and risks of belief, explanation, and argumentation in AI. Includes a significant individual research project.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#COMPSCI-361">COMPSCI 361</a> or 762, or <a href="#COMPSCI-713">COMPSCI 713</a> and 714</p>
+</article>
+<article class='course' id='COMPSCI-771'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 771 - Advanced Topics in Computer Graphics and Image (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+771&from=COMPSCI.html%23COMPSCI-771' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Processing Basic geometric processes including transformations; viewing and projection; back projection and ray tracing. Graphics modelling concepts: primitives, surfaces, and scene graphs, lighting and shading, texture mapping, and curve and surface design. Graphics and image processing fundamentals: image definition and representation, perception and colour models, grey level and colour enhancement, neighbourhood operations and filtering. Use of the OpenGL graphics pipeline. Research frontiers in computer graphics and image processing. Recommended preparation: COMPSCI 210, 230</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#COMPSCI-373">COMPSCI 373</a></p>
+</article>
+<article class='course' id='COMPSCI-773'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 773 - Intelligent Vision Systems (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+773&from=COMPSCI.html%23COMPSCI-773' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Computational methods and techniques for computer vision are applied to real-world problems such as 2/3D face biometrics, autonomous navigation, and vision-guided robotics based on 3D scene description. A particular feature of the course work is the emphasis on complete system design. Recommended preparation: COMPSCI 373 and 15 points at Stage II in Mathematics</p>
+</article>
+<article class='course' id='COMPSCI-778'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 778 - Internship - Level 9 (60 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+778&from=COMPSCI.html%23COMPSCI-778' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Enables the development of practical knowledge and hands-on experience through a supervised internship in the IT industry. Students complete a research-informed project, and present both written and oral reports of their findings.</p>
+</article>
+<article class='course' id='COMPSCI-779'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 779 -  (30 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+779&from=COMPSCI.html%23COMPSCI-779' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='COMPSCI-779A'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 779A -  (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+779A&from=COMPSCI.html%23COMPSCI-779A' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='COMPSCI-779B'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 779B - Internship - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+779B&from=COMPSCI.html%23COMPSCI-779B' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Enables students to gain workplace experience, the development of practical knowledge, and hands-on experience on research-informed AI projects through a supervised internship with an external organisation. At the end of the internship, students are expected to present both written and oral reports of their findings.</p>
+<p class='meta'><strong>Prerequisite:</strong> Academic Head or nominee approval</p>
+<p class='meta'><em>and B, or <a href="#COMPSCI-779">COMPSCI 779</a></em></p>
+</article>
+<article class='course' id='COMPSCI-780'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 780 -  (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+780&from=COMPSCI.html%23COMPSCI-780' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='COMPSCI-780A'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 780A -  (7.5 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+780A&from=COMPSCI.html%23COMPSCI-780A' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='COMPSCI-780B'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 780B - Postgraduate Project in Computer Science 1 (7.5 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+780B&from=COMPSCI.html%23COMPSCI-780B' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p class='meta'><strong>Prerequisite:</strong> Approval of Academic Head or nominee</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#COMPSCI-691">COMPSCI 691</a></p>
+<p class='meta'><em>and B, or <a href="#COMPSCI-780">COMPSCI 780</a></em></p>
+</article>
+<article class='course' id='COMPSCI-789A'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 789A -  (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+789A&from=COMPSCI.html%23COMPSCI-789A' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='COMPSCI-789B'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 789B - Honours Research Project - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+789B&from=COMPSCI.html%23COMPSCI-789B' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p class='meta'><strong>Prerequisite:</strong> Approval of Academic Head or nominee</p>
+<p class='meta'><em>A and B</em></p>
+</article>
+<article class='course' id='COMPSCI-791'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 791 -  (30 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+791&from=COMPSCI.html%23COMPSCI-791' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='COMPSCI-791A'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 791A -  (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+791A&from=COMPSCI.html%23COMPSCI-791A' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='COMPSCI-791B'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 791B - Research Project - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+791B&from=COMPSCI.html%23COMPSCI-791B' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p class='meta'><em>and B, or <a href="#COMPSCI-791">COMPSCI 791</a></em></p>
+</article>
+<article class='course' id='COMPSCI-792'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 792 -  (30 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+792&from=COMPSCI.html%23COMPSCI-792' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='COMPSCI-792A'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 792A -  (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+792A&from=COMPSCI.html%23COMPSCI-792A' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='COMPSCI-792B'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 792B - Research Project - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+792B&from=COMPSCI.html%23COMPSCI-792B' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p class='meta'><strong>Prerequisite:</strong> Academic Head or nominee approval</p>
+<p class='meta'><em>and B, or <a href="#COMPSCI-792">COMPSCI 792</a></em></p>
+</article>
+<article class='course' id='COMPSCI-796A'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 796A -  (60 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+796A&from=COMPSCI.html%23COMPSCI-796A' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='COMPSCI-796B'>
+<h3 class='course-head'><span class='course-head-text'>COMPSCI 796B - MSc Thesis in Computer Science - Level 9 (60 pts)</span><a class='ri-flag' href='../issues.html?course=COMPSCI+796B&from=COMPSCI.html%23COMPSCI-796B' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p class='meta'><em>A and B Data Science</em></p>
+</article>
+</div></body></html>

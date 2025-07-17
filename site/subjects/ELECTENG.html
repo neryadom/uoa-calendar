@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'/>
+<title>ELECTENG (Electrical and Electronic Engineering) Courses</title>
+<style>
+/* minimal starter styles */
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+  margin: 0;
+  padding: 2rem 1rem;
+  background: #fff; /* changed */
+  color: #111;
+}
+.main-wrapper {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.course {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #ddd;
+}
+.course h3 {
+  margin: 0 0 .25rem 0;
+  font-size: 1.1rem;
+}
+.meta {
+  margin: .25rem 0;
+  font-size: .9rem;
+  color: #555;
+}
+.meta strong {
+  color: #000;
+}
+.stage-header {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 2px solid #000;
+}
+
+/* ---- issue icon layout ---- */
+.course-head {
+  display: flex;              /* lay out title + icon */
+  align-items: baseline;      /* align text baselines */
+  gap: .25rem;                /* small gap before icon */
+  flex-wrap: wrap;            /* allow wrapping on narrow screens */
+}
+.course-head-text {
+  flex: 1 1 auto;             /* take remaining space */
+  min-width: 0;               /* allow shrink */
+}
+.ri-flag {
+  margin-left: auto;          /* push icon to far right */
+  font-size: .95em;
+  line-height: 1;
+  text-decoration: none;      /* remove underline */
+  opacity: .6;
+  cursor: pointer;
+  transition: opacity .15s, transform .15s;
+  white-space: nowrap;        /* keep icon on one line */
+}
+.ri-flag:hover,
+.ri-flag:focus {
+  opacity: 1;
+  transform: scale(1.1);
+  text-decoration: none;
+  outline: none;
+}
+</style>
+</head>
+<body>
+<div class='main-wrapper'>
+<h1>ELECTENG (Electrical and Electronic Engineering)</h1>
+<p><a href='../index.html'>&larr; Back to all subjects</a></p>
+<h2 class='stage-header'>Stage I</h2>
+<article class='course' id='ELECTENG-101'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 101 - Electrical and Digital Systems (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+101&from=ELECTENG.html%23ELECTENG-101' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An introduction to electrical, computer and electronic systems and technology. Digital circuits and analysis techniques, computer organisation. Analog circuits and analysis techniques. Inductive power transfer, power systems and electric machines. Communication systems.</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#ELECTENG-202">ELECTENG 202</a>, 204, 208, 210</p>
+</article>
+<h2 class='stage-header'>Stage II</h2>
+<article class='course' id='ELECTENG-202'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 202 - Circuits and Systems (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+202&from=ELECTENG.html%23ELECTENG-202' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Aims to provide a good understanding of the way electrical circuits work. It covers DC and AC circuit theorems and analysis; transient analysis, including the Laplace transform; transfer functions; AC power calculations; and time and frequency representation of signals.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-101">ELECTENG 101</a></p>
+</article>
+<article class='course' id='ELECTENG-204'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 204 - Engineering Electromagnetics (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+204&from=ELECTENG.html%23ELECTENG-204' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Electrostatics (Coulomb’s and Gauss’s Laws, scalar potential, energy, capacitance, dielectrics), magnetostatics (Biot-Savart and Ampere’s Laws, moving conductors, magnetic forces/torques, ferromagnetic hysteresis, inductance, magnetic materials), electromagnetic induction (Faraday’s and Lenz’s Laws). Transmission lines subjected to pulse excitation, magnetic circuits and single-phase transformers. Introduction to computational electromagnetics.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-101">ELECTENG 101</a></p>
+</article>
+<article class='course' id='ELECTENG-208'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 208 - Electric Circuit Analysis (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+208&from=ELECTENG.html%23ELECTENG-208' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Aims to provide a good understanding of the way electrical circuits work. The course covers DC and AC circuit theorems and analysis. It also introduces some semiconductor devices (diodes, transistors and operational amplifiers) and gives examples of their applications.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-101">ELECTENG 101</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="#ELECTENG-202">ELECTENG 202</a> or 291</p>
+</article>
+<article class='course' id='ELECTENG-209'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 209 - Analogue and Digital Design (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+209&from=ELECTENG.html%23ELECTENG-209' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Project-based course introducing the process of electrical engineering design. Students will research a diverse range of practical problems and develop solutions and prototypes, test and evaluate hardware and software solutions, and communicate the design and results. Professional issues introduced in ENGGEN 204 (health and safety, sustainability, cultural diversity/awareness, communication, leadership, teamwork, financial awareness) and design for repair are reinforced and developed.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/COMPSYS.html#COMPSYS-201">COMPSYS 201</a> and <a href="#ELECTENG-202">ELECTENG 202</a>, or <a href="../subjects/COMPSYS.html#COMPSYS-201">COMPSYS 201</a> and <a href="#ELECTENG-291">ELECTENG 291</a>, or <a href="../subjects/PHYSICS.html#PHYSICS-140">PHYSICS 140</a> and 244</p>
+</article>
+<article class='course' id='ELECTENG-210'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 210 - Electronics 1 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+210&from=ELECTENG.html%23ELECTENG-210' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Semiconductor devices and applications, diodes, bipolar junction transistors and operational amplifiers. Elementary device physics. Linear and non-linear devices, terminal characteristics, small-signal modelling and analysis. Frequency-dependent behaviour of circuits and analysis methods. Linear and non-linear circuits such as amplifiers and switching circuits. Biasing, coupling and bypass techniques. Operational amplifiers, frequency-dependence and characteristic limitations, frequency selective and non- linear switching circuits.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-101">ELECTENG 101</a></p>
+</article>
+<article class='course' id='ELECTENG-291'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 291 - Fundamentals of Electrical Engineering (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+291&from=ELECTENG.html%23ELECTENG-291' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>AC and DC circuit analysis in the context of linear electrical and electronic systems. Time and frequency domain approaches to describing and analysing electrical networks and systems.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-101">ELECTENG 101</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="#ELECTENG-202">ELECTENG 202</a></p>
+</article>
+<article class='course' id='ELECTENG-292'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 292 - Electronics (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+292&from=ELECTENG.html%23ELECTENG-292' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Electronic devices and circuits for solving engineering problems. Analysis of linear and non-linear microelectronic circuits and their practical applications.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-202">ELECTENG 202</a> or 291, or <a href="../subjects/PHYSICS.html#PHYSICS-121">PHYSICS 121</a> and 244</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#ELECTENG-210">ELECTENG 210</a></p>
+</article>
+<article class='course' id='ELECTENG-299'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 299 - Workshop Practice (0 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+299&from=ELECTENG.html%23ELECTENG-299' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p class='meta'><strong>Restriction:</strong> <a href="../subjects/ENGGEN.html#ENGGEN-299">ENGGEN 299</a></p>
+</article>
+<h2 class='stage-header'>Stage III</h2>
+<article class='course' id='ELECTENG-303'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 303 - Systems and Control (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+303&from=ELECTENG.html%23ELECTENG-303' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Introduction to linear, time-invariant, continuous-time system theory from both a time-domain and frequency domain standpoint. This leads on to the fundamental body of knowledge underlying the control and enhancement of system behaviour, with application to the analysis and control of electrical systems.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-202">ELECTENG 202</a></p>
+</article>
+<article class='course' id='ELECTENG-305'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 305 - Applied Electronics (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+305&from=ELECTENG.html%23ELECTENG-305' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An advanced treatment of electronic circuits including a rigorous treatment of feedback, device limitations, noise effects, stability, and design considerations. Emphasis on common practical circuits taken from analog and switching applications.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-202">ELECTENG 202</a> or 291, and 210 or 292</p>
+</article>
+<article class='course' id='ELECTENG-307'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 307 - Fields and Waves (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+307&from=ELECTENG.html%23ELECTENG-307' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Transmission lines subjected to AC excitation, the Smith chart, introduction to matching network design and introduction to antennas for radio systems. Maxwell’s equations in differential and integral form, divergence and Stokes’ theorems, skin effect and uniform plane waves (lossless/lossy media, reflection and transmission, polarisation). Case studies in computational electromagnetics.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-204">ELECTENG 204</a></p>
+</article>
+<article class='course' id='ELECTENG-309'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 309 - Power Apparatus and Systems (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+309&from=ELECTENG.html%23ELECTENG-309' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Introduces students to three-phase electric machines and power system components. Covers theory, modelling and practical aspects for synchronous machines, induction and Design 924 machines, transformer connections, transmission lines and substation components.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-204">ELECTENG 204</a></p>
+</article>
+<article class='course' id='ELECTENG-310'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 310 - Electrical Engineering Design 1 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+310&from=ELECTENG.html%23ELECTENG-310' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An appreciation of the design process as applied to electrical and electronic engineering systems. Design skills are enhanced through engineering projects which typically involve modelling, simulation and analogue/digital electronic hardware design. Professional issues introduced in ENGGEN 204, 303 and 403 (ethics, sustainability, cultural awareness, communication, leadership, teamwork, financial awareness, safety in design) and design for repair are reinforced and developed.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="../subjects/COMPSYS.html#COMPSYS-201">COMPSYS 201</a>, and <a href="../subjects/COMPSYS.html#COMPSYS-209">COMPSYS 209</a> or <a href="#ELECTENG-209">ELECTENG 209</a>, and <a href="#ELECTENG-202">ELECTENG 202</a> or 291, and <a href="../subjects/COMPSYS.html#COMPSYS-202">COMPSYS 202</a> or <a href="../subjects/SOFTENG.html#SOFTENG-281">SOFTENG 281</a></p>
+</article>
+<article class='course' id='ELECTENG-311'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 311 - Electrical Engineering Design 2 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+311&from=ELECTENG.html%23ELECTENG-311' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>The formal introduction to the design process is completed by one or more open-ended projects which typically include elements of design from concept to working prototype. Professional issues introduced in ENGGEN 303 (health and safety, sustainability, cultural diversity/ awareness, communication, leadership, teamwork, financial awareness) and design for repair are reinforced and developed.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-310">ELECTENG 310</a></p>
+</article>
+<article class='course' id='ELECTENG-331'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 331 - Signals and Systems (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+331&from=ELECTENG.html%23ELECTENG-331' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Introduction to continuous-time and discrete-time signals and systems. Spectral analysis and representation of analog and digital signals, and linear, time-invariant systems. Conversion between analog and digital signals. Systems for manipulating and filtering signals in hardware and software.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-202">ELECTENG 202</a> or 291, or <a href="../subjects/PHYSICS.html#PHYSICS-140">PHYSICS 140</a> and 244</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#ELECTENG-303">ELECTENG 303</a></p>
+</article>
+<article class='course' id='ELECTENG-332'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 332 - Control Systems (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+332&from=ELECTENG.html%23ELECTENG-332' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Introduction to modelling in the time-domain and frequency domain. The fundamental body of knowledge underlying the control and enhancement of system behaviour, with application to the analysis and control of systems.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-202">ELECTENG 202</a> or 291</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#ELECTENG-303">ELECTENG 303</a></p>
+</article>
+<h2 class='stage-header'>Postgraduate 700 Level Courses</h2>
+<article class='course' id='ELECTENG-700A'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 700A -  (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+700A&from=ELECTENG.html%23ELECTENG-700A' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='ELECTENG-700B'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 700B - Research Project - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+700B&from=ELECTENG.html%23ELECTENG-700B' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Students are required to submit a report on project work carried out on a topic assigned by the Head of Department. The work shall be supervised by a member of staff.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-310">ELECTENG 310</a>, 311, and 30 points from <a href="#ELECTENG-303">ELECTENG 303</a>, 305, 309, 331, 332</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#ELECTENG-401">ELECTENG 401</a></p>
+<p class='meta'><em>A and B</em></p>
+</article>
+<article class='course' id='ELECTENG-701'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 701 - Mobile Wireless Engineering (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+701&from=ELECTENG.html%23ELECTENG-701' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Aspects of the design and planning of mobile radio systems. Radio propagation for mobile radio systems (multipath, narrowband and wideband channels, channel characterisation and measurements), propagation modelling (free-space, plane-earth, diffraction). Frequency reuse and interference, outage probabilities, system performance evaluation, space diversity, MIMO and millimetre-wave systems.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-307">ELECTENG 307</a> or 721 or 737</p>
+</article>
+<article class='course' id='ELECTENG-703'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 703 - Advanced Power Systems - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+703&from=ELECTENG.html%23ELECTENG-703' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Electricity markets: structure, pricing, optimisation, ancillary services; power system protection practices; distribution network development: smart grid, demand side participation; HVDC and FACT devices theory and application; renewable energy grid integration. Includes a substantial individual research project.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-731">ELECTENG 731</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="#ELECTENG-738">ELECTENG 738</a></p>
+</article>
+<article class='course' id='ELECTENG-704'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 704 - Advanced Control Systems - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+704&from=ELECTENG.html%23ELECTENG-704' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Advanced theory of modern control systems with emphasis on optimisation techniques for both deterministic and stochastic processes. State-space modelling of dynamic systems and choice of suitable performance criteria. Adaptive, nonlinear and sliding mode control systems. Core concepts are extended by an individual research project in which a challenging control problem is analysed and solved.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-722">ELECTENG 722</a></p>
+</article>
+<article class='course' id='ELECTENG-706'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 706 - Topics in Digital Signal Processing - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+706&from=ELECTENG.html%23ELECTENG-706' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An advanced treatment of digital signal processing topics with an emphasis on state of the art techniques. Case studies of digital signal processing methods used to solve practical problems in science and engineering. Includes a substantial individual research project.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-733">ELECTENG 733</a></p>
+</article>
+<article class='course' id='ELECTENG-711'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 711 - Studies in Electrical and Electronic Engineering 1 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+711&from=ELECTENG.html%23ELECTENG-711' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Advanced course on topics to be determined each year by the Head of Department.</p>
+</article>
+<article class='course' id='ELECTENG-712'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 712 - Studies in Electrical and Electronic Engineering 2 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+712&from=ELECTENG.html%23ELECTENG-712' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Advanced course on topics to be determined each year by the Head of Department.</p>
+</article>
+<article class='course' id='ELECTENG-713'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 713 - Studies in Electrical and Electronic Engineering 3 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+713&from=ELECTENG.html%23ELECTENG-713' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Advanced course on topics to be determined each year by the Head of Department.</p>
+</article>
+<article class='course' id='ELECTENG-714'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 714 - Studies in Electrical and Electronic Engineering 4 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+714&from=ELECTENG.html%23ELECTENG-714' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Advanced course on topics to be determined each year by the Head of Department.</p>
+</article>
+<article class='course' id='ELECTENG-715'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 715 - Studies in Electrical and Electronic Engineering 5 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+715&from=ELECTENG.html%23ELECTENG-715' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Advanced course on topics to be determined each year by the Head of Department.</p>
+</article>
+<article class='course' id='ELECTENG-716'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 716 - Studies in Electrical and Electronic Engineering 6 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+716&from=ELECTENG.html%23ELECTENG-716' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Advanced course on topics to be determined each year by the Head of Department.</p>
+</article>
+<article class='course' id='ELECTENG-721'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 721 - Radio Engineering (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+721&from=ELECTENG.html%23ELECTENG-721' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Matching networks, waveguides, transmitter/receiver design, noise, non-linear behaviour, antennas, applications and Design 925 in computational electromagnetics. Fundamentals of radio propagation, tropospheric effects, diffraction, link budgets, point-to-point link design, multipath propagation, introduction to area coverage (mobile radio) systems. Introduction to radar systems, the radio spectrum and exposure standards.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-307">ELECTENG 307</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="#ELECTENG-421">ELECTENG 421</a>, 737</p>
+</article>
+<article class='course' id='ELECTENG-722'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 722 - Modern Control Systems (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+722&from=ELECTENG.html%23ELECTENG-722' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>State space analysis, relationship to transfer function methods, controllability and observability, multivariable plant. Computer simulation. Stability considerations. State variable feedback. Digital control system, design and realisation of digital controllers, adaptive controllers. Nonlinear systems, phase-plane and describing function techniques, Lyapunov&#x27;s method of stability analysis, design of controllers for non-linear systems. Variable structure systems.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-303">ELECTENG 303</a> or 331 or 332</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#ELECTENG-422">ELECTENG 422</a>, <a href="../subjects/MECHENG.html#MECHENG-720">MECHENG 720</a>, 724</p>
+</article>
+<article class='course' id='ELECTENG-724'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 724 - Special Topic (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+724&from=ELECTENG.html%23ELECTENG-724' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An advanced course on topics to be determined each year by the Head of Department.</p>
+<p class='meta'><strong>Prerequisite:</strong> Departmental approval</p>
+</article>
+<article class='course' id='ELECTENG-726'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 726 - Digital Communications (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+726&from=ELECTENG.html%23ELECTENG-726' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Advanced principles and techniques in digital transmission systems: baseband and passband digital systems. Geometric representation of signals: theory of orthonormal signals, correlation demodulators, optimal detector. Digital phase (PSK) and frequency (FSK) modulation. Digital communication systems with noise. Information theory, capacity theorem and applications. Signal and information coding: data compression, digital transmission, error detection and correction, block and convolutional codes. Noise, thermal noise, noise figure. Traffic theory. Digital networks and OSI model.</p>
+<p class='meta'><strong>Prerequisite:</strong> 15 points from <a href="#ELECTENG-303">ELECTENG 303</a>, 331, 332</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#ELECTENG-426">ELECTENG 426</a>, 741</p>
+</article>
+<article class='course' id='ELECTENG-731'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 731 - Power Systems (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+731&from=ELECTENG.html%23ELECTENG-731' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Builds on the knowledge of three-phase power systems components to understand modelling, formulation and typical analysis carried out by electricity transmission, distribution and generation entities. Load flow, fault, stability and power quality. Supplemented by laboratories where students learn to use professional software to implement the theoretical aspects.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-309">ELECTENG 309</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="#ELECTENG-411">ELECTENG 411</a></p>
+</article>
+<article class='course' id='ELECTENG-732'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 732 - Communication Systems (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+732&from=ELECTENG.html%23ELECTENG-732' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Analog AM and FM modulation. Noise in AM and FM systems. AM modulators and demodulators. Coherent and non-coherent receivers. Superheterodyne receivers. Multiplexing: FDM, TDM, CDMA. Pulse modulation. Nyquist theorem; PCM modulation and multiplexing. Baseband digital transmission; optimal filtering; matched filter detection; probability of error. Intersymbol interference, waveform coding and data compression, base-band data transmission. Introduction to digital systems and modulations.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-303">ELECTENG 303</a> or 331</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#ELECTENG-412">ELECTENG 412</a></p>
+</article>
+<article class='course' id='ELECTENG-733'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 733 - Digital Signal Processing (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+733&from=ELECTENG.html%23ELECTENG-733' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Analysis and manipulation of discrete-time signals and systems. Spectral representations and analysis using the z-transform, discrete Fourier transform and fast Fourier transform. Introduction to stochastic processes. Hardware systems for processing digital signals.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-303">ELECTENG 303</a> or 331 or <a href="../subjects/ENGSCI.html#ENGSCI-311">ENGSCI 311</a> or 313</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#ELECTENG-413">ELECTENG 413</a></p>
+</article>
+<article class='course' id='ELECTENG-734'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 734 - Power Electronics - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+734&from=ELECTENG.html%23ELECTENG-734' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Selected advanced concepts in power electronics are introduced through a practical and research based individual design project, utilising modern power converter topologies with supporting lectures that include: inductive power transfer and control, DC-DC converter design and control, high frequency magnetics design, semiconductor switches, practical design issues, controlled rectifiers and PWM converters with application to conventional and brushless DC motors.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-305">ELECTENG 305</a>, 310, 311</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#ELECTENG-414">ELECTENG 414</a></p>
+</article>
+<article class='course' id='ELECTENG-735'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 735 - Green Energy Technologies (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+735&from=ELECTENG.html%23ELECTENG-735' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Advanced green energy technologies with examples from current industry practice and cutting edge research developments. Topics include: renewable energy systems, distributed power generation, energy storage techniques, transportation electrification, power converters for renewable energy integration, soft-switched resonant converters, wireless power transfer, new semiconductor devices, motor drives, and LED lighting.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-734">ELECTENG 734</a></p>
+</article>
+<article class='course' id='ELECTENG-736'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 736 - Analog and Digital Filter Synthesis (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+736&from=ELECTENG.html%23ELECTENG-736' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Filter concepts and network functions, a review of approximation techniques and frequency transformations, leading to a thorough treatment of passive, active and digital filter implementations.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-303">ELECTENG 303</a> or 331</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#ELECTENG-416">ELECTENG 416</a></p>
+</article>
+<article class='course' id='ELECTENG-737'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 737 - Advanced Radio Engineering - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+737&from=ELECTENG.html%23ELECTENG-737' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Advanced topics in radio system and high frequency electromagnetic design including: Matching networks, waveguides, transmitter/receiver design, noise, non- linear behaviour, antennas, applications in computational electromagnetics. Fundamentals of radio propagation, tropospheric effects, diffraction, link budgets, point-to- point link design, multipath propagation, introduction to area coverage (mobile radio) systems. Introduction to radar systems, the radio spectrum and exposure standards. Students will also undertake an individual research project involving high frequency systems design.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-307">ELECTENG 307</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="#ELECTENG-421">ELECTENG 421</a>, 721</p>
+</article>
+<article class='course' id='ELECTENG-738'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 738 - Selected Topics in Advanced Power Systems - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+738&from=ELECTENG.html%23ELECTENG-738' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Electricity markets: structure, pricing, optimisation, ancillary services; Power system protection practices; and Design 926 Distribution Network Development: Smart Grids, Demand Side Participation, Integration of DG/renewable sources and Electric Vehicles. Core concepts are extended by an individual research project, a self-guided protection laboratory and industry engagement in advanced power system practices.</p>
+<p class='meta'><strong>Prerequisite:</strong> <a href="#ELECTENG-731">ELECTENG 731</a></p>
+<p class='meta'><strong>Restriction:</strong> <a href="#ELECTENG-703">ELECTENG 703</a></p>
+</article>
+<article class='course' id='ELECTENG-739'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 739 - Special Topic - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+739&from=ELECTENG.html%23ELECTENG-739' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An advanced course on a topic to be determined each year by the Head of Department. Includes a substantial individual research project.</p>
+<p class='meta'><strong>Prerequisite:</strong> Departmental approval</p>
+</article>
+<article class='course' id='ELECTENG-740'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 740 - Special Topic - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+740&from=ELECTENG.html%23ELECTENG-740' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>An advanced course on a topic to be determined each year by the Head of Department. Includes a substantial individual research project.</p>
+<p class='meta'><strong>Prerequisite:</strong> Departmental approval</p>
+</article>
+<article class='course' id='ELECTENG-741'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 741 - Advanced Digital Communications - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+741&from=ELECTENG.html%23ELECTENG-741' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Advanced topics in modern digital communication systems and networks including: Advanced digital modulation theory and practice in single and multi-user communications systems; advanced information theory including single and multiple source coding; modern error control coding methods and applications; traffic theory and application in communication systems and networks. Theoretical knowledge is extended by an advanced laboratory programme and research projects.</p>
+<p class='meta'><strong>Prerequisite:</strong> 15 points from <a href="#ELECTENG-303">ELECTENG 303</a>, 331, 332</p>
+<p class='meta'><strong>Restriction:</strong> <a href="#ELECTENG-426">ELECTENG 426</a>, 726</p>
+</article>
+<article class='course' id='ELECTENG-770'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 770 - Capstone Project (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+770&from=ELECTENG.html%23ELECTENG-770' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Final year team exercise with students in multi-disciplinary roles, with focus on electrical and electronic engineering, integrating technical learning into realistic design outcomes. Comprehensive investigation of an open- ended, complex, real or synthetic computer, electrical and software engineering problem with simulated professional design office constraints. Includes technical, economic and environmental impact components to complete a scheme assessment report.</p>
+<p class='meta'><strong>Prerequisite:</strong> 75 points from Part III courses listed in the BE(Hons) Schedule for the Electrical and Electronic Engineering specialisation</p>
+</article>
+<article class='course' id='ELECTENG-787'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 787 - Project X - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+787&from=ELECTENG.html%23ELECTENG-787' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Students are required to submit a report on a topic assigned by the appropriate Head of Department.</p>
+<p class='meta'><strong>Prerequisite:</strong> Departmental approval</p>
+</article>
+<article class='course' id='ELECTENG-788'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 788 -  (30 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+788&from=ELECTENG.html%23ELECTENG-788' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='ELECTENG-788A'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 788A -  (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+788A&from=ELECTENG.html%23ELECTENG-788A' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='ELECTENG-788B'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 788B - Research Project - Level 9 (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+788B&from=ELECTENG.html%23ELECTENG-788B' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Students are required to submit a report on a topic assigned by the appropriate Head of Department.</p>
+<p class='meta'><strong>Prerequisite:</strong> Departmental approval</p>
+<p class='meta'><em>A and B, or <a href="#ELECTENG-788">ELECTENG 788</a></em></p>
+</article>
+<article class='course' id='ELECTENG-789'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 789 - Project Z - Level 9 (30 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+789&from=ELECTENG.html%23ELECTENG-789' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Students are required to submit a report on a topic assigned by the appropriate Head of Department.</p>
+<p class='meta'><strong>Prerequisite:</strong> Departmental approval</p>
+</article>
+<article class='course' id='ELECTENG-795'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 795 -  (45 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+795&from=ELECTENG.html%23ELECTENG-795' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='ELECTENG-795A'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 795A -  (15 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+795A&from=ELECTENG.html%23ELECTENG-795A' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='ELECTENG-795B'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 795B - Research Project (Electrical and Electronic) - Level 9 (30 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+795B&from=ELECTENG.html%23ELECTENG-795B' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Students are required to submit a report on a topic relevant to the specialisation, as assigned by the appropriate Head of Department.</p>
+<p class='meta'><strong>Prerequisite:</strong> Departmental approval</p>
+<p class='meta'><em>A and B, or <a href="#ELECTENG-795">ELECTENG 795</a></em></p>
+</article>
+<article class='course' id='ELECTENG-796A'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 796A -  (60 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+796A&from=ELECTENG.html%23ELECTENG-796A' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+</article>
+<article class='course' id='ELECTENG-796B'>
+<h3 class='course-head'><span class='course-head-text'>ELECTENG 796B - ME Thesis (Electrical and Electronic) - Level 9 (60 pts)</span><a class='ri-flag' href='../issues.html?course=ELECTENG+796B&from=ELECTENG.html%23ELECTENG-796B' title='Issue with the description? ' aria-label='Issue with the description? '>🏳</a></h3>
+<p>Students are required to submit a thesis on a topic assigned by the appropriate Head of Department.</p>
+<p class='meta'><strong>Prerequisite:</strong> Departmental approval</p>
+<p class='meta'><em>A and B Energy</em></p>
+</article>
+</div></body></html>
