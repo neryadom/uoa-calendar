@@ -382,24 +382,5 @@ ul.subject-list li a:hover {
 <li class='' data-letter='W'><span class='alpha-label'></span><a href='subjects/WTRSCI.html'>WTRSCI (Waipapa Taumata Rau)</a></li>
 <li class='alpha-start' data-letter='Y' id='letter-Y'><span class='alpha-label'>Y</span><a href='subjects/YOUTHWRK.html'>YOUTHWRK (Youth Work)</a></li>
 
-<footer class="page-foot" role="contentinfo">
-  <small class="visit-counter" aria-label="Visitor count">
-    Visits: <span id="visitor-count">…</span>
-  </small>
-</footer>
-
-<!-- visitor counter using a free API -->
-<script>
-(function() {
-  fetch('https://api.countapi.xyz/hit/uoacalendar.co.nz/visits')
-    .then(response => response.json())
-    .then(data => {
-      document.getElementById('visitor-count').textContent = data.value.toLocaleString();
-    })
-    .catch(() => {
-      document.getElementById('visitor-count').textContent = 'unavailable';
-    });
-})();
-</script>
-
+ 
 </ul></div></body></html>
